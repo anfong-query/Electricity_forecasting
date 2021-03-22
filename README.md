@@ -14,7 +14,7 @@ before modify
 after modify
 
 ## correlation between operation reserve and other featue ##
-
+![features_correlation](https://github.com/anfong-query/Electricity_forecasting/blob/main/plot/features_correlation.PNG)
 
 ## Run the Code ##
  Create the enviroment with conda and python3.7
