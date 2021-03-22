@@ -14,3 +14,20 @@ before modify
 after modify
 
 ## correlation between operation reserve and other featue ##
+
+
+## Run the Code ##
+ create the enviroment with conda and python3.7
+ ```
+ conda create -n dsai python==3.7
+ ```
+ ```
+ activate dsai
+ ```
+ Obtain the corresponding environment from requirement.txt
+ ```
+ conda install --yes --file requirements.txt
+ ```
+ ```
+ python app.py --training data --output submission.csv
+ ```
