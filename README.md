@@ -1,6 +1,8 @@
 # Electricity_forecasting
  This is a project to predict the capacity of backup transfer in the next week
- This project uses LSTM as the predictive model. We use two years of operation reserve data as input to predict one week of data
+ 
+ This project uses LSTM as the predictive model.  
+ We use two years of operation reserve data as input to predict one week of data.
 
 ## Data pre-processing ##
 
@@ -15,7 +17,7 @@ before modify
 after modify
 
 ## correlation between operation reserve and other featue ##
-Using the correlation suite of pandas, it was learned that the power plant(col = 34) most related to the operation reserve has only a 60% correlation. After testing, we decided not to use the most input feature of this power plant.
+Using the correlation suite of pandas, it was learned that the power plant(col = 34) most related to the operation reserve has only a 67% correlation. After testing, we decided not to use the most input feature of this power plant.
 
 ![features_correlation](https://github.com/anfong-query/Electricity_forecasting/blob/main/plot/features_correlation.PNG)
 
