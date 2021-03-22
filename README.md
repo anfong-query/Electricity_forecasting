@@ -17,7 +17,7 @@ after modify
 
 
 ## Run the Code ##
- create the enviroment with conda and python3.7
+ Create the enviroment with conda and python3.7
  ```
  conda create -n dsai python==3.7
  ```
@@ -28,6 +28,7 @@ after modify
  ```
  conda install --yes --file requirements.txt
  ```
+ Use the following command to predict the operation reserve for the next week
  ```
  python app.py --training data --output submission.csv
  ```
