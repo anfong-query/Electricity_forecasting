@@ -12,3 +12,5 @@ before modify
 ![after_modify](https://github.com/anfong-query/Electricity_forecasting/blob/main/plot/after_modify.png)
 
 after modify
+
+## correlation between operation reserve and other featue ##
